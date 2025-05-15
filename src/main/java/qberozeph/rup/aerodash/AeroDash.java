@@ -15,6 +15,7 @@ public final class AeroDash extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        saveDefaultConfig();
         getServer().getPluginManager().registerEvents(this, this);
     }
 
@@ -32,10 +33,12 @@ public final class AeroDash extends JavaPlugin implements Listener {
             double speed = velocity.length();
             double speedKmh = speed * 20 * 3.6;
 
-            player.spigot().sendMessage(
-                    ChatMessageType.ACTION_BAR,
-                    new TextComponent(ChatColor.WHITE + "Скорость: " + ChatColor.GREEN + String.format("%.1f", speedKmh) + ChatColor.WHITE + "км/ч")
-            );
+            String template = getConfig().getString("display-message", "{speed}");
+            String message = template.replace("{speed}", String.format("%.1f", speedKmh));
+
+            message = ChatColor.translateAlternateColorCodes('&', message);
+
+            player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(message));
         }
     }
 }
