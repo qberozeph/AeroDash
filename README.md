@@ -5,17 +5,17 @@ Whether you're gliding through the skies or boosting with fireworks, AeroDash pr
 
 ## ✨ Features
 
-- 📏 Real-time Elytra flight speed display
-- 🚀 Supports both normal gliding and firework-boosted flight
-- 🧭 Clean and unobtrusive UI (shown in ActionBar)
-- ⚙️ Fully configurable (message format, color, update rate)
-- 🛡️ Lightweight and optimized for performance
+- 📏 Real-time Elytra flight speed display  
+- 🚀 Supports both normal gliding and firework-boosted flight  
+- 🧭 Clean and unobtrusive UI (shown in ActionBar)  
+- ⚙️ Fully configurable (message format, color, update rate)  
+- 🛡️ Lightweight and optimized for performance  
 - 🔄 Compatible with Minecraft **1.13+**
 
 ## 📦 Installation
 
-1. Download the latest release from the [Releases](https://github.com/your-username/AeroDash/releases) page.
-2. Place the `.jar` file in your server's `plugins` folder.
+1. Download the latest release from the [Releases](https://github.com/qberozeph/AeroDash/releases) page.  
+2. Place the `.jar` file in your server's `plugins` folder.  
 3. Restart or reload your server.
 
 ## ⚙️ Configuration
@@ -23,10 +23,10 @@ Whether you're gliding through the skies or boosting with fireworks, AeroDash pr
 After the first launch, a configuration file (`config.yml`) will be generated in the `plugins/AeroDash` folder.
 
 You can customize:
-- Display format
-- Update interval
-- Speed units (blocks per second, blocks per tick, etc.)
-- Minimum speed threshold
+- Display format  
+- Update interval  
+- Speed units (blocks per second, blocks per tick, etc.)  
+- Minimum speed threshold  
 
 ## 🧪 Commands & Permissions
 
@@ -34,14 +34,14 @@ You can customize:
 
 ## 🛠️ Compatibility
 
-- Minecraft versions: **1.13 to latest**
+- Minecraft versions: **1.13 to latest**  
 - Tested with: **Paper**, **Spigot**, and **Purpur**
 
 ## ❓ Support
 
 Found a bug or have a suggestion?  
-Create an [issue](https://github.com/your-username/AeroDash/issues) or open a [pull request](https://github.com/your-username/AeroDash/pulls).
+Create an [issue](https://github.com/qberozeph/AeroDash/issues) or open a [pull request](https://github.com/qberozeph/AeroDash/pulls).
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/qberozeph/AeroDash/blob/main/LICENSE).
