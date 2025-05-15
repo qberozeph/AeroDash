@@ -1,0 +1,4 @@
+name: AeroDash
+version: '${project.version}'
+main: qberozeph.rup.aerodash.AeroDash
+api-version: '1.21'
